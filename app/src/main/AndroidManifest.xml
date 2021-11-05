@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AMST1">
         <activity
+            android:name=".Calendario_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Video_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Grafico_Activity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

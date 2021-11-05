@@ -15,4 +15,45 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/mapsM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginBottom="156dp"
+        android:backgroundTint="@color/purple_200"
+        android:src="@drawable/ic_photo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/videoM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="#FF0000"
+        android:src="@drawable/ic_video"
+        app:layout_constraintBottom_toTopOf="@+id/mapsM"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/calendarioM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="#808000"
+        android:src="@drawable/ic_calendar"
+        app:layout_constraintBottom_toTopOf="@+id/videoM"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
 </android.support.constraint.ConstraintLayout>
